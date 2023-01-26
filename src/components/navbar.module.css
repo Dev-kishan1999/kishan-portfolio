@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    height: 10vh;
+}
+
+.navbar h1{
+    margin-left: 1rem;
+}
+
+.navLinks{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #1d3557;
+}
