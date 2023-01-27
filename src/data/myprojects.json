@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Repo-Scientist",
+    "github": "https://github.com/RepoScientist",
+    "desc": "Web application to analyse contribution from a github repository and commits to display it as charts.",
+    "technology": ["ReactJS", "Strapi", "NodeJs", "GraphQL", "MongoDB"]
+  },
+  {
+    "id": "2",
+    "name": "code matcher",
+    "github": "https://github.com/Dev-kishan1999/codematcher",
+    "desc": "Responsive web application for to find the best match like tinder using cloud technologies.",
+    "technology": ["ReactJS", "AWS", "NodeJs", "DynamoDB", "HTML", "CSS"]
+  },
+  {
+    "id": "3",
+    "name": "Database management system",
+    "github": "https://github.com/Dev-kishan1999/dmwa",
+    "desc": "A Distributed Datamanagement system that can process queries like SQL queries.",
+    "technology": ["Java", "GCP"]
+  },
+  {
+    "id": "4",
+    "name": "pawadoption",
+    "github": "https://github.com/Dev-kishan1999/pawadoption",
+    "desc": "An Android application to adopting and provinding shelter to cats.",
+    "technology": ["Kotlin", "Android", "GCP"]
+  },
+  {
+    "id": "5",
+    "name": "B&B",
+    "github": "https://github.com/Dev-kishan1999/serverless",
+    "desc": "Multi-cloud based responsive web application to manage hotel, food and tour bookings.",
+    "technology": ["ReactJS", "Python", "NodeJs", "AWS Services", "GCP"]
+  },
+  {
+    "id": "6",
+    "name": "SolarX",
+    "github": "https://github.com/Dev-kishan1999/SolarX",
+    "desc": "Web application for a solar panel compnay for selling solar products online.",
+    "technology": ["ReactJS", "NodeJs", "Chakra UI", "MySQL"]
+  }
+]

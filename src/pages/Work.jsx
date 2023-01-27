@@ -6,7 +6,6 @@ import exps from "../data/exp.json";
 import { FiArrowRight } from "react-icons/fi";
 
 const Work = () => {
-  const [data, setData] = useState([]);
   const [val, setVal] = useState(0);
 
   const { position, date, duties } = exps[val];
