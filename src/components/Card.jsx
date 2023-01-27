@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./card.module.css";
-import { AiOutlineArrowRight } from "react-icons/ai";
 const Card = ({ project }) => {
   return (
     <div className={styles.card}>

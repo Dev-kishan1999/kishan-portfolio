@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import { motion } from "framer-motion";
 import kishan from "../static/kishan.png";
 import styles from "./home.module.css";
+import resume from "./resume.pdf";
 
 const Home = () => {
   return (
@@ -26,6 +27,11 @@ const Home = () => {
             the foundations of software engineering to support and encourage
             internal innovation and growth of organization.{" "}
           </p>
+          <div className={styles.resume}>
+            <a href={resume} target="_blank" rel="noreferrer">
+              Resume
+            </a>
+          </div>
         </div>
       </motion.div>
     </motion.div>
