@@ -1,0 +1,21 @@
+[
+  {
+    "cmp": "TD Bank",
+    "position": "DevOps Engineer Intern",
+    "date": "Jan, 2023 - Present",
+    "duties": [
+      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+      "it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters"
+    ]
+  },
+
+  {
+    "cmp": "Toupto Technologies",
+    "position": "Full stack Developer",
+    "date": "Oct, 2020 - Nov, 2021",
+    "duties": [
+      "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+      "it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters"
+    ]
+  }
+]

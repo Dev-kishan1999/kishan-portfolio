@@ -1,0 +1,59 @@
+.workWrapper {
+  background-color: #e9edc9;
+  width: 100%;
+  height: 100vh;
+}
+
+.work {
+  /* display: flex;
+  align-content: flex-start;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  gap: 10rem;
+  margin: 8rem 0 0 8rem;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin: 1rem;
+  border: none;
+  background-color: #a3b18a;
+  height: 5vh;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.actbtn {
+  margin: 1rem;
+  border: none;
+  background-color: #a3b18a;
+  height: 5vh;
+  padding: 8px;
+  cursor: pointer;
+  border-left: 2px solid #344e41;
+  border-bottom: 2px solid #344e41;
+}
+
+.date {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.expDetails {
+  width: 60vw;
+}
+
+.duty {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 10px;
+  align-items: center;
+  font-size: 1rem;
+  width: 70%;
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "name": "Repo-Scientist",
+    "github": "https://github.com/RepoScientist",
+    "details": [
+      "A web application that analyse the contribution of invidual in a github repository and display it in different charts accordingly.",
+      "It will counts the potential commits as per Jira ticket to track the progress and also implemented github Oauth for authentication.",
+      "Project go further for the term paper at Dalhousie University.",
+      "Wrote Backend logics to get the row data from APIs and to perform proper analysis for getting meaningful data."
+    ]
+  },
+  {
+    "id": "2",
+    "name": "code matcher",
+    "github": "https://github.com/Dev-kishan1999/codematcher",
+    "details": [
+      "A fully functional, cloud based web application which allows user to find their matching taste of coding style date.",
+      "To increase the smoothness of UI, it is built with React and Material UI.",
+      "Used more than 5 cloud services such as AWS Lambada, CloudFront, Elastic BeanStalk, DynamoDB, SNS, S3 and Cognito",
+      "Wrote Cloud Formations to scale website with almost 0 down time."
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Database management system",
+    "github": "https://github.com/Dev-kishan1999/dmwa",
+    "details": [
+      "A functional and console based Distributed Database management system (Replication of MySQL).",
+      "It can parse the queries and perform task accordingly.",
+      "Used text files to store the data at low level.",
+      "Used java to write all the feature such as query parser, transaction, locks and authentication."
+    ]
+  },
+  {
+    "id": "4",
+    "name": "pawadoption",
+    "github": "https://github.com/Dev-kishan1999/pawadoption",
+    "details": [
+      "An android application to list and adopt a cats/pets.",
+      "Found need of this application, in one real life scenario and that spark this idea for application.",
+      "Shelter are the petkeeper who can list pet, their details and user can do application to adopt that pet, which can be evaluated by the shelter.",
+      "Integrated map to find nearest vets, implemented feature to book appointment for regular and emergency checkups."
+    ]
+  },
+  {
+    "id": "5",
+    "name": "B&B",
+    "github": "https://github.com/Dev-kishan1999/serverless",
+    "details": [
+      "A multi-cloud and serverless project with highest availability, resiliency and scalability to maintain a hotel.",
+      "Implemented room bookng and food ordering features acoording to availability.",
+      "Integrated chatbot which provide all the same services to book room, tour and order food.",
+      "Used services of AWS and GCP cloud to make it multi-cloud and serverless."
+    ]
+  },
+  {
+    "id": "6",
+    "name": "SolarX",
+    "github": "https://github.com/Dev-kishan1999/SolarX",
+    "details": [
+      "A fully functional web application for selling renewable energy products such as solar products online.",
+      "An Organization can maintain inventory, price and can track all the sales through provided admin panel.",
+      "This web app is developed using React JS with Chakra UI to enhance the user interface and Express.js (Framework of NodeJs) as backend technology.",
+      "This website also has the features like Wallet and Cart."
+    ]
+  }
+]
