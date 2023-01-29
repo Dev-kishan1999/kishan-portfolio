@@ -15,6 +15,9 @@ const Navbar = ({ title }) => {
             clicked ? styles.navbarContainerActive : styles.navbarContainer
           }
         >
+          <Link to="/" className={styles.navLinks}>
+            Home
+          </Link>
           <Link to="/aboutme" className={styles.navLinks}>
             About Me
           </Link>
