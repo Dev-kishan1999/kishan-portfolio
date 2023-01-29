@@ -1,17 +1,27 @@
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: aliceblue;
-    height: 10vh;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+  height: 10vh;
 }
 
-.navbar h1{
-    margin-left: 2rem;
+.navbar h1 {
+  margin-left: 2rem;
 }
 
-.navLinks{
-    margin-right: 3rem;
-    text-decoration: none;
-    color: #1d3557;
+.navLinks {
+  margin-right: 3rem;
+  text-decoration: none;
+  color: #1d3557;
+}
+
+@media only screen and (max-width: 768px) {
+  .navLinks {
+    /* display: none; */
+  }
+
+  .navbar {
+    /* display: none; */
+  }
 }

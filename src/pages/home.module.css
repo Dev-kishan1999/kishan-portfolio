@@ -6,7 +6,7 @@
 
 .home {
   height: 90vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   align-content: flex-start;
@@ -43,4 +43,29 @@
 
 .resume a:hover {
   transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+  .home {
+    flex-direction: column;
+  }
+  .selfImage {
+    height: 200px;
+    width: 200px;
+    margin-top: 3rem;
+    box-shadow: -10px 10px #e63946, 10px -10px #a8dadc;
+    margin-left: 0;
+  }
+
+  .intro {
+    margin-left: 0;
+    font-size: 0.9rem;
+    width: 70vw;
+    margin-top: 5rem;
+  }
+
+  .highlightedText {
+    color: #e63946;
+    font-size: 1rem;
+  }
 }
