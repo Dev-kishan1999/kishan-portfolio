@@ -16,6 +16,12 @@
   color: #1d3557;
 }
 
+.mobile {
+  margin-right: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 768px) {
   .navLinks {
     /* display: none; */
@@ -23,5 +29,33 @@
 
   .navbar {
     /* display: none; */
+  }
+
+  .navLinks {
+    margin: 1rem;
+  }
+
+  .navbarContainer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: -60vw;
+    top: 10vh;
+    background-color: aliceblue;
+    width: 60vw;
+    height: 90vh;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navbarContainerActive {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0vw;
+    top: 10vh;
+    background-color: aliceblue;
+    width: 60vw;
+    height: 90vh;
+    transition: all 0.3s ease-in-out;
   }
 }
